@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: foo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\undan\AppData\Local\Temp\RSP6B7C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/foo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\undan\code\MyProjects\foo\foo\foo.cpp"
+]
+Creating command line "cl.exe @C:\Users\undan\AppData\Local\Temp\RSP6B7C.tmp" 
+<h3>Output Window</h3>
+Compiling...
+foo.cpp
+c:\users\undan\code\myprojects\foo\foo\foo.cpp(4) : fatal error C1083: Cannot open precompiled header file: 'Debug/foo.pch': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+foo.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
